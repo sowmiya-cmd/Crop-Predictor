@@ -55,7 +55,7 @@ background-color:lightgreen;
         </div>
         <nav class="offcanvas__menu mobile-menu">
             <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
+                <li class="active"><a href="./index.php">Home</a></li>
               
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
@@ -63,8 +63,8 @@ background-color:lightgreen;
         <div id="mobile-menu-wrap"></div>
         <ul class="offcanvas__widget">
             <li><i class="fa fa-map-marker"></i> Thiagarajar College Of Engineering,Madurai</li>
-            <li><i class="fa fa-phone"></i> +91 8838036610</li>
-            <li><i class="fa fa-envelope"></i> tceinfo@gmail.com</li>
+            <li><i class="fa fa-phone"></i> +91 999999999</li>
+            <li><i class="fa fa-envelope"></i> cropprediction@gmail.com</li>
         </ul>
         <div class="offcanvas__language">
             <img src="img/flag.png" alt="">
@@ -86,8 +86,8 @@ background-color:lightgreen;
                     <div class="col-lg-9">
                         <ul class="header__top__widget">
                             <li><i class="fa fa-map-marker"></i> Thiagarajar college of Engineering,Madurai</li>
-                            <li><i class="fa fa-phone"></i> +91 8838036610</li>
-                            <li><i class="fa fa-envelope"></i> tceinfo@gmail.com</li>
+                            <li><i class="fa fa-phone"></i> +91 999999999</li>
+                            <li><i class="fa fa-envelope"></i>  cropprediction@gmail.com</li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
@@ -108,14 +108,14 @@ background-color:lightgreen;
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.php"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="header__nav">
                         <nav class="header__menu">
                             <ul>
-                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li class="active"><a href="./index.php">Home</a></li>
                              
                                 <li><a href="./contact.html">Contact</a></li>
                             </ul>
@@ -131,60 +131,8 @@ background-color:lightgreen;
             </div>
         </div>
     </header>
-    <!-- Header Section End -->
+  
 
-    <!-- Hero Section Begin -->
-    <section class="hero set-bg" data-setbg="img/hero-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="hero__text">
-                        <h2>Agriculture &Horticulture Corner,Madurai</h2>
-                        <a href="https://farmer.gov.in/" class="primary-btn">Get Start</a>
-                       </div>
-                </div>
-                <div class="col-lg-5 offset-lg-2">
-                    <div class="hero__form">
-					<div class="container">
-                        <h3>Search</h3>
-						<form action="" method="POST">
-                       <b> <input type="text" name="location" class="btn" placeholder="Location">
-						<br><input type ="submit" name="search" class="btn" value="Get Details Now"></b>
-                </div>
-            </div>
-        </div>
-    </section>  </form>
-<table>
-	<tr>
-	<th>location</th>
-	<th>fertility-level</th>
-	<th>suggested-crops</th>
-	<th>fertilizers</th></tr><br>
-	<?php
-	$connection=mysqli_connect("localhost","root","");
-	$db=mysqli_select_db($connection,'location');
-	if(isset($_POST['search']))
-	{
-	$location=$_POST['location'];
-	$result= mysqli_query($con,"SELECT location,fertility-level,suggested-crops,fertilizers FROM 'village' where location='$location' ")or die("Error:".mysqli_error($con));
-	$query_run=mysqli_query($connection,$result);
-	while($row=mysqli_fetch_array($query_run))
-	{
-	?>
-	<tr>
-	<td><?php echo $row['location'];?></td>
-	<td><?php echo $row['fertility-level'];?></td>
-	<td><?php echo $row['suggested-crops'];?></td>
-	<td><?php echo $row['fertilizers'];?></td>
-	</tr>
-	<?php
-	}
-	}?>
-	</table></div>
-
-           <br><br>     
-
-   
   
 
     <!-- Footer Section Begin -->
@@ -194,10 +142,10 @@ background-color:lightgreen;
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__logo">
-                            <a href="./index.html"><img src="#" alt=""></a>
+                            <a href="./index.php"><img src="#" alt=""></a>
                         </div>
                         <p> <span>Contact Us Now!</span>
-                        <h2>+918838036610</h2>
+                        <h2> cropprediction@gmail.com</h2>
                     </div>
                 </div>
                 

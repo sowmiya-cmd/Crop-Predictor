@@ -129,9 +129,7 @@ background-color:lightgreen;
             </div>
         </div>
     </header>
-    <!-- Header Section End -->
-
-    <!-- Hero Section Begin -->
+   
     <section class="hero set-bg" data-setbg="img/hero-bg.jpg">
         <div class="container">
             <div class="row">
@@ -142,12 +140,11 @@ background-color:lightgreen;
                        </div>
                 </div>
                
-    </section>  </form>
+    </section>  
 
    
   
 
-    <!-- Footer Section Begin -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -206,7 +203,7 @@ background-color:lightgreen;
 
    
 
-    <!-- Js Plugins -->
+   
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nice-select.min.js"></script>

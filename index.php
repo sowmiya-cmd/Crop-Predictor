@@ -97,7 +97,7 @@ background-color:lightgreen;
                             <i class="fa fa-angle-down"></i>
                             <ul>
                                 <li><a href="#">English</a></li>
-                                <li><a href="#">Bangla</a></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -182,9 +182,9 @@ background-color:lightgreen;
                     <div class="col-lg-6 col-md-6">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <div class="footer__copyright__text">
-                            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |  <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                       
                         </div>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        
                     </div>
                 </div>
             </div>

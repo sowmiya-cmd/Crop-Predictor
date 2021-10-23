@@ -76,9 +76,7 @@ background-color:lightgreen;
             </ul>
         </div>
     </div>
-    <!-- Offcanvas Menu End -->
-
-    <!-- Header Section Begin -->
+   
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -159,7 +157,7 @@ background-color:lightgreen;
                             <a href="./index.php"><img src="#" alt=""></a>
                         </div>
                         <p> <span>Contact Us Now!</span>
-                        <h2>+918838036610</h2>
+                        <h2>+91 8888899999</h2>
                     </div>
                 </div>
                 
@@ -194,7 +192,7 @@ background-color:lightgreen;
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                     
                         <div class="footer__copyright__text">
                            
                         </div>
@@ -204,7 +202,7 @@ background-color:lightgreen;
             </div>
         </div>
     </footer>
-    <!-- Footer Section End -->
+   
 
    
 

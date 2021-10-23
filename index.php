@@ -72,7 +72,7 @@ background-color:lightgreen;
             <i class="fa fa-angle-down"></i>
             <ul>
                 <li><a href="#">English</a></li>
-                <li><a href="#">Bangla</a></li>
+               
             </ul>
         </div>
     </div>

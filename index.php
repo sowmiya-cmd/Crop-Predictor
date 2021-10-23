@@ -21,7 +21,7 @@ background-color:lightgreen;
     <meta name="keywords" content="Loanday, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>E-Farm</title>
+    <title>Crop Prediction System</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -63,8 +63,8 @@ background-color:lightgreen;
         <div id="mobile-menu-wrap"></div>
         <ul class="offcanvas__widget">
             <li><i class="fa fa-map-marker"></i> Thiagarajar College Of Engineering,Madurai</li>
-            <li><i class="fa fa-phone"></i> +91 999999999</li>
-            <li><i class="fa fa-envelope"></i> cropprediction@gmail.com</li>
+            <li><i class="fa fa-phone"></i> +91 8888899999</li>
+            <li><i class="fa fa-envelope"></i> croppredictionsystem@gmail.com</li>
         </ul>
         <div class="offcanvas__language">
             <img src="img/flag.png" alt="">
@@ -72,7 +72,7 @@ background-color:lightgreen;
             <i class="fa fa-angle-down"></i>
             <ul>
                 <li><a href="#">English</a></li>
-               
+                
             </ul>
         </div>
     </div>
@@ -86,8 +86,8 @@ background-color:lightgreen;
                     <div class="col-lg-9">
                         <ul class="header__top__widget">
                             <li><i class="fa fa-map-marker"></i> Thiagarajar college of Engineering,Madurai</li>
-                            <li><i class="fa fa-phone"></i> +91 999999999</li>
-                            <li><i class="fa fa-envelope"></i>  cropprediction@gmail.com</li>
+                            <li><i class="fa fa-phone"></i> +91 8888899999</li>
+                            <li><i class="fa fa-envelope"></i> cropprediction@gmail.com</li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
@@ -97,7 +97,7 @@ background-color:lightgreen;
                             <i class="fa fa-angle-down"></i>
                             <ul>
                                 <li><a href="#">English</a></li>
-                                
+                                <li><a href="#">Bangla</a></li>
                             </ul>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ background-color:lightgreen;
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.php"><img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-9">
@@ -131,8 +131,22 @@ background-color:lightgreen;
             </div>
         </div>
     </header>
-  
+    <!-- Header Section End -->
 
+    <!-- Hero Section Begin -->
+    <section class="hero set-bg" data-setbg="img/hero-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="hero__text">
+                        <h2>Crop Prediction System</h2>
+                        <a href="https://crop-prediction-webapp.herokuapp.com/" class="primary-btn">Search</a>
+                       </div>
+                </div>
+               
+    </section>  </form>
+
+   
   
 
     <!-- Footer Section Begin -->
@@ -145,7 +159,7 @@ background-color:lightgreen;
                             <a href="./index.php"><img src="#" alt=""></a>
                         </div>
                         <p> <span>Contact Us Now!</span>
-                        <h2> cropprediction@gmail.com</h2>
+                        <h2>+918838036610</h2>
                     </div>
                 </div>
                 
@@ -182,9 +196,9 @@ background-color:lightgreen;
                     <div class="col-lg-6 col-md-6">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <div class="footer__copyright__text">
-                       
+                           
                         </div>
-                        
+                      
                     </div>
                 </div>
             </div>
